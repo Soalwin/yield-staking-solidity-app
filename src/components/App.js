@@ -139,10 +139,7 @@ class App extends Component {
 
 
         return (
-            <div className='App' style={{position:'relative'}}>
-                <div style={{position:'absolute'}}>
-                <ParticleSettings/>
-                </div>
+           
              <Navbar  account={this.state.account}/>
             
                <div className='container-fluid mt-5'>
