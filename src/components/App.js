@@ -6,7 +6,7 @@ import Tether from '../truffle_abis/Tether.json'
 import RWD from '../truffle_abis/RWD.json'
 import DecentralBank from '../truffle_abis/DecentralBank.json'
 import Main from './Main.js'
-import ParticleSettings from './particleSettings.js'
+
 
 class App extends Component {
 
