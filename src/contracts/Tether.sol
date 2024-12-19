@@ -2,7 +2,7 @@ pragma solidity '0.5.16';
 contract Tether {
 string public name = 'Mock Tether Token';
 string public symbol = 'USDT';
-uint256 public totalSupply = 100000000000000000000000; // 1 million tokens
+uint256 public totalSupply =100000000000000000000000 ; // 1 million tokens
 uint8 public decimals = 18;
 
 event Transfer(

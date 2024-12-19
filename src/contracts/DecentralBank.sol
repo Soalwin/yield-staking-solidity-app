@@ -39,7 +39,7 @@ function depositTokens(uint _amount) public {
 }
 
 //unstake tokens
-function unstakeToken()public {
+function unstakeTokens()public {
     uint balance = stakingBalances[msg.sender];
 
     require(balance > 0);

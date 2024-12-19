@@ -24,7 +24,7 @@ module.exports = async function (deployer, network, accounts) {
 
     // Transfer some Tether tokens to a test account
     if (web3.utils.isAddress(accounts[1])) {
-        await tether.transfer(accounts[1], '1000000000000000000');
+        await tether.transfer(accounts[1], '100000000000000000000000');
     } else {
         console.error("Invalid recipient address:", accounts[1]);
     }
